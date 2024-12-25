@@ -10,7 +10,7 @@ import { useSession } from 'next-auth/react'
 import { redirect } from 'next/navigation'
 
 
-import DeleteBtn from './deleteBtn'
+import DeleteBtn from './DeleteBtn'
 
 function AdminUsersManagePage() {
     const { data: session } = useSession();
